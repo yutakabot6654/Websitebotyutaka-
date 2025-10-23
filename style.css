@@ -66,19 +66,11 @@ a:focus {
 
 /* Пульсуюча анімація */
 @keyframes pulse-glow {
-  0% {
-    opacity: 0.9;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.03);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1.08);
-  }
+  0% { opacity: 0.9; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.03); }
+  100% { opacity: 0; transform: scale(1.08); }
 }
+
 /* === ЕФЕКТ ДРУКУВАННЯ КОЖНОЇ ЛІТЕРИ === */
 
 #type-title {
@@ -126,8 +118,8 @@ a:focus {
 }
 
 @keyframes modalFadeIn {
-  from {opacity: 0; transform: scale(0.96);}
-  to {opacity: 1; transform: scale(1);}
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 .modal-content {
@@ -145,8 +137,8 @@ a:focus {
 }
 
 @keyframes modalPop {
-  from {transform: translateY(20px); opacity: 0;}
-  to {transform: translateY(0); opacity: 1;}
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
 
 .close-btn {
